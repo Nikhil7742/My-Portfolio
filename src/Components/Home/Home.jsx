@@ -24,7 +24,7 @@ const Home = () => {
       </div>
 
       {/* Image Section */}
-      <div className='w-3/4 md:w-1/3 mb-6 md:mb-0 sm:mt-0 mt-[70px]'>
+      <div className='w-3/4 md:w-1/3 mb-6 md:mb-0 md:mt-0 mt-[70px]'>
         <img
           className='w-full h-auto object-cover rounded-full shadow-lg'
           src={avatarImg}
