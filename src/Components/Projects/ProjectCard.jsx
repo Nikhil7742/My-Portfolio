@@ -1,9 +1,9 @@
 import React from 'react'
-import bannerImg from '../../assets/project_image.jpg'
+import bannerImg from '../../assets/project.avif'
 const ProjectCard = ({ title, main }) => {
   return (
     <div className='p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl'>
-      <img className='p-1' src={bannerImg} alt='' />
+      <img className='p-1 rounded-md' src={bannerImg} alt=''/>
       <h3 className='px-4 text-xl md:text-2xl font-bold leading-normal'>
         {title}
       </h3>
