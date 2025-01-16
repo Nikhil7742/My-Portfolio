@@ -1,6 +1,6 @@
 import React from 'react'
-import AboutImg from '../../assets/7358653-removebg-preview.png'
-import { IoArrowForward } from 'react-icons/io5'
+import AboutImg from '../../assets/7358653-removebg-preview.png';
+
 const About = () => {
   return (
     <div
@@ -19,7 +19,7 @@ const About = () => {
                   Frontend developer
                 </h1>
                 <p>
-                  I am a Frontend Developer with expertise in Javascript,React
+                  I am a Frontend Developer in Javascript,React
                   js. With a basic background in front-end development, I enjoy
                   building scalable web applications and solving complex
                   technical challenges. As a Tech Team Lead, I thrive in
@@ -31,10 +31,13 @@ const About = () => {
             </div>
           </ul>
         </div>
-        <a className='button' href='./assets/Nikhil Resume.pdf' download>
-          <button className='bg-[#465697] md:mt-10 block mx-auto text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]"'>
-            Download Resume
-          </button>
+        <a
+          className='bg-[#465697] md:mt-10 block mx-auto text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl max-w-[190px]'
+          href='src/assets/Nikhil_Resume .pdf'
+          download='Nikhil_Resume.pdf'
+          aria-label="Download Nikhil's Resume"
+        >
+          Download Resume
         </a>
       </div>
     </div>
